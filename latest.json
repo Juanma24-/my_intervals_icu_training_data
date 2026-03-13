@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-13T11:30:01.247281",
+    "last_updated": "2026-03-13T11:55:41.229261",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.81"
@@ -353,7 +353,7 @@
     "p_max": 1225,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-13T11:30:01.246490",
+    "calculation_timestamp": "2026-03-13T11:55:41.228444",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -756,19 +756,8 @@
       "description": "After warming up, the focus today is on improving your aerobic endurance. The main set consists of a variety of low-intensity aerobic efforts. Relax and enjoy the ride today.\n\nWarmup\n- 10m ramp 45.4-75.4%\n\n- 1m 62.9%\n- 7m 73%\n- 1m 62.9%\n- 6m 68%\n- 1m 62.9%\n- 7m 73.4%\n- 1m 62.9%\n- 6m 68.4%\n- 1m 62.9%\n- 7m 73%\n\nCooldown\n- 10m ramp 75.4-45.4%"
     },
     {
-      "id": 97224828,
-      "date": "2026-03-14",
-      "name": "Group Ride",
-      "type": "WORKOUT",
-      "planned_tss": 250,
-      "duration_hours": 5.0,
-      "duration_formatted": "5h",
-      "workout_summary": null,
-      "description": ""
-    },
-    {
       "id": 97224973,
-      "date": "2026-03-15",
+      "date": "2026-03-14",
       "name": "Group Ride",
       "type": "WORKOUT",
       "planned_tss": 125,
@@ -776,6 +765,17 @@
       "duration_formatted": "2h30m",
       "workout_summary": null,
       "description": "Easy Z2 (if possible) no big effort in ascents"
+    },
+    {
+      "id": 97224828,
+      "date": "2026-03-15",
+      "name": "Group Ride",
+      "type": "WORKOUT",
+      "planned_tss": 250,
+      "duration_hours": 5.0,
+      "duration_formatted": "5h",
+      "workout_summary": null,
+      "description": ""
     },
     {
       "id": 97221907,
