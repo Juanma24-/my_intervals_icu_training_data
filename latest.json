@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-22T14:52:07.864426",
+    "last_updated": "2026-03-22T15:21:16.119591",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.81"
@@ -307,9 +307,9 @@
           "planned_tss_delta": null,
           "hard_sessions_planned": 0,
           "race_proximity": null,
-          "next_week_load": 1.33,
+          "next_week_load": 1.44,
           "plan_coverage_current_week": 0.0,
-          "plan_coverage_next_week": 1.4
+          "plan_coverage_next_week": 1.6
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -344,7 +344,7 @@
     "p_max": 1222,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-22T14:52:07.863601",
+    "calculation_timestamp": "2026-03-22T15:21:16.118685",
     "data_quality": {
       "hrv_data_points": 5,
       "rhr_data_points": 5,
@@ -821,6 +821,17 @@
       "planned_tss": null,
       "duration_hours": 1.5,
       "duration_formatted": "1h30m",
+      "workout_summary": null,
+      "description": ""
+    },
+    {
+      "id": 99968574,
+      "date": "2026-03-27",
+      "name": "Easy Run",
+      "type": "WORKOUT",
+      "planned_tss": 40,
+      "duration_hours": 0.83,
+      "duration_formatted": "50m",
       "workout_summary": null,
       "description": ""
     },
