@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-22T18:30:13.876274",
+    "last_updated": "2026-03-22T19:03:04.257790",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.81"
@@ -28,13 +28,13 @@
       "hrv": {
         "status": "unavailable",
         "value": null,
-        "baseline_7d": 97.5,
+        "baseline_7d": 97.2,
         "delta_pct": null
       },
       "rhr": {
         "status": "unavailable",
         "value": null,
-        "baseline_7d": 42.8,
+        "baseline_7d": 44,
         "delta_bpm": null
       },
       "sleep": {
@@ -150,7 +150,7 @@
     },
     "current_metrics": {
       "weight_kg": 63.0,
-      "resting_hr": 41,
+      "resting_hr": 50,
       "hrv": null,
       "sleep_quality": null,
       "sleep_hours": null,
@@ -159,10 +159,10 @@
   },
   "derived_metrics": {
     "recovery_index": null,
-    "hrv_baseline_7d": 97.5,
-    "rhr_baseline_7d": 42.8,
-    "hrv_baseline_28d": 95.8,
-    "rhr_baseline_28d": 42.3,
+    "hrv_baseline_7d": 97.2,
+    "rhr_baseline_7d": 44,
+    "hrv_baseline_28d": 95.7,
+    "rhr_baseline_28d": 42.6,
     "latest_hrv": null,
     "latest_rhr": null,
     "acwr": 1.02,
@@ -307,9 +307,9 @@
           "planned_tss_delta": null,
           "hard_sessions_planned": 0,
           "race_proximity": null,
-          "next_week_load": 1.44,
+          "next_week_load": 1.6,
           "plan_coverage_current_week": 0.0,
-          "plan_coverage_next_week": 1.6
+          "plan_coverage_next_week": 1.8
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -344,10 +344,10 @@
     "p_max": 1222,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-22T18:30:13.875459",
+    "calculation_timestamp": "2026-03-22T19:03:04.256968",
     "data_quality": {
-      "hrv_data_points": 5,
-      "rhr_data_points": 5,
+      "hrv_data_points": 6,
+      "rhr_data_points": 6,
       "activities_7d": 7,
       "activities_28d": 31,
       "planned_workouts_7d": 6,
@@ -737,9 +737,9 @@
     },
     {
       "date": "2026-03-21",
-      "weight_kg": null,
-      "resting_hr": null,
-      "hrv_rmssd": null,
+      "weight_kg": 62.8,
+      "resting_hr": 50,
+      "hrv_rmssd": 95.20649,
       "hrv_sdnn": null,
       "sleep_hours": null,
       "sleep_formatted": null,
@@ -812,6 +812,17 @@
       "duration_formatted": "43m10s",
       "workout_summary": "8m @111W | 4\u00d730s @262W / 30s rec | 1m @111W | 15s @590W | 1m @111W | 10s @707W | 4m @111W | 5\u00d715s @1152W / 3m rec | 8m @111W",
       "description": "In this test, the purpose is to record the best 5-sec power. The warm-up consists of low intensity followed by some threshold toggles, then two priming efforts, then 5 sprint attempts. Do at least 2-3 to make sure a good effort was recorded. Although the sprints are programed as 15-sec free ride efforts, you don't need to sprint for the full duration (just go a little beyond 5 sec).\n\n- 8m 30-55%\n- 30s 95-105%\n- 30s 45-55%\n- 30s 95-105%\n- 30s 45-55%\n- 30s 95-105%\n- 30s 45-55%\n- 30s 95-105%\n- 1m 30-55%\n- 1m 30-55%\n- 15s 200-250%\n- 1m 30-55%\n- 10s 260-280%\n- 4m 30-55%\n- 15s Freeride 380-500% - mean max power\n- 3m 20-45%\n- 15s Freeride 380-500% - mean max power\n- 3m 20-45%\n- 15s Freeride 380-500% - mean max power\n- 3m 20-45%\n- 15s Freeride 380-500% - mean max power\n- 3m 20-45%\n- 15s Freeride 380-500% - mean max power\n- 3m 20-45%\n- 8m 30-55%"
+    },
+    {
+      "id": 100016970,
+      "date": "2026-03-25",
+      "name": "Controlled 30/30's #1",
+      "type": "WORKOUT",
+      "planned_tss": 56,
+      "duration_hours": 0.85,
+      "duration_formatted": "51m",
+      "workout_summary": "5m @174W | 5m @238W | 3m @130W | 6\u00d730s @336W / 30s rec | 7m @142W | 6\u00d730s @336W / 30s rec | 7m @142W | 6\u00d730s @336W / 30s rec | 6m @103W",
+      "description": "These Controlled 30/30 efforts are completed at a power just below your Maximal Aerobic Power (MAP).\n\nBy splitting up into 30 seconds, with 30 seconds of recovery, you can accumulate more time at this intensity than you would if doing it as a continuous effort.\n\nWarmup\n- Ramping up steadily 30^ The warm up simulates a steady climb from the start 60^ Increasing the intensity as you climb 150^ In todays workout we go through a classic session 170^ These, short, hard, repeated efforts are a huge part of cycling training 190^ Professionals and Amateurs can benefit from these intervals 200^ As the pack a lot of benefits in a relatively short time period 210^ With the main benefit being... 220^ That you can accumulate more time in the zone, 230^ Than you could if just riding the power steady 240^ For example, if you imagine you could sustain 400W for 5 minutes 250^ by breaking this up into 30 second blocks 260^ You could almost double the amount of time spent at that intensity 270^ With similar, and sometimes improved endurance effects 280^ Ready for 5min at threshold.<!> 5m ramp 50-85%\n\n- 150^ Just 5 minutes today, 180^ this should be comfortable 200^ Hold a steady pace throughout 220^ Maintain a consistent cadence<!> 5m 92%\n- 20^ That is the warm up done. 60^ Now for the main sets of 6x30sec efforts. 100^ Maintain your cadence for each 30sec effort. 120^ Aim to keep it the same for each interval 150^ The smoother, more controlled the cadence is... 160^ The better your form (generally) 170^ Ready?<!> 3m 50.4%\n\n6x\n- 30s 129.9%\n- 30s 44.9%\n\n- 20^ Enjoy the recovery time 60^ Spin the legs 90^ Eat and drink 300^ We have e 2 more sets to come 350^ Try to maintain the cadence you held for the first set 400^ Here we go!!<!> 7m 55%\n\n6x\n- 30s 129.9%\n- 30s 44.9%\n\n- 30^ How is your RPE during the intervals? 60^ And how does it compare the the RPE of the push pull session? 90^ Or even the extended over under session 120^ With some crossover in the benefits of these sessions 150^ This is a great session to use in a taper 180^ Or preparation phase 300^ One more to go!<!> 7m 55%\n\n6x\n- 30s 129.9%\n- 30s 44.9%\n\nCooldown\n- 20^ Fantastic session today 40^ How did your cadence respond through each effort? 60^ Higher? 80^ Lower? 100^ Similar? 120^ What about your RPE? 140^ Did it get harder throughout? 160^ Or did you maintain your exertion level? 180^ And what about your Heart Rate? 200^ Did it climb throughout? 300^ We will develop this session in the coming weeks! 320^ See you on the next one<!> 6m ramp 50-30%"
     },
     {
       "id": 97840688,
@@ -912,37 +923,15 @@
       "workout_summary": "8m @111W | 4\u00d730s @262W / 30s rec | 1m @111W | 15s @498W | 1m @111W | 10s @654W | 4m @111W | 2m @392W | 8m @111W"
     },
     {
-      "id": 97840691,
-      "date": "2026-04-02",
-      "name": "Lower Body",
+      "id": 100016412,
+      "date": "2026-04-01",
+      "name": "Long Ride",
       "type": "WORKOUT",
-      "planned_tss": null,
-      "duration_hours": 1.5,
-      "duration_formatted": "1h30m",
+      "planned_tss": 150,
+      "duration_hours": 3.0,
+      "duration_formatted": "3h",
       "workout_summary": null,
       "description_preview": null
-    },
-    {
-      "id": 97840527,
-      "date": "2026-04-04",
-      "name": "Group Ride",
-      "type": "WORKOUT",
-      "planned_tss": 250,
-      "duration_hours": 5.0,
-      "duration_formatted": "5h",
-      "workout_summary": null,
-      "description_preview": null
-    },
-    {
-      "id": 97843205,
-      "date": "2026-04-05",
-      "name": "Group Ride",
-      "type": "WORKOUT",
-      "planned_tss": 125,
-      "duration_hours": 2.5,
-      "duration_formatted": "2h30m",
-      "workout_summary": null,
-      "description_preview": "Easy Z2 (if possible) no big effort in ascents"
     },
     {
       "id": 97224452,
@@ -963,17 +952,6 @@
       "planned_tss": null,
       "duration_hours": 0.0,
       "duration_formatted": "0s",
-      "workout_summary": null,
-      "description_preview": null
-    },
-    {
-      "id": 97841220,
-      "date": "2026-04-06",
-      "name": "Upper Body",
-      "type": "WORKOUT",
-      "planned_tss": null,
-      "duration_hours": 1.5,
-      "duration_formatted": "1h30m",
       "workout_summary": null,
       "description_preview": null
     },
@@ -1085,6 +1063,17 @@
       "description_preview": null
     },
     {
+      "id": 100020911,
+      "date": "2026-04-17",
+      "name": "Easy Run",
+      "type": "WORKOUT",
+      "planned_tss": 63,
+      "duration_hours": 0.92,
+      "duration_formatted": "55m",
+      "workout_summary": null,
+      "description_preview": "Warmup\n- 10m ramp Z2 Pace intensity=warmup\n- 40m Z2 Pace"
+    },
+    {
       "id": 97842895,
       "date": "2026-04-18",
       "name": "Group Ride",
@@ -1171,6 +1160,16 @@
       "description_preview": null
     },
     {
+      "id": 100020454,
+      "date": "2026-04-24",
+      "name": "Easy Run",
+      "type": "WORKOUT",
+      "planned_tss": 53,
+      "duration_hours": 0.73,
+      "duration_formatted": "43m54s",
+      "workout_summary": "10m | 3\u00d74m35s / 5m3s rec | 5m"
+    },
+    {
       "id": 97842908,
       "date": "2026-04-25",
       "name": "Group Ride",
@@ -1247,6 +1246,17 @@
       "workout_summary": "8m @110W | 4\u00d730s @258W / 30s rec | 1m @110W | 2m @284W | 1m @110W | 30s @323W | 4m @110W | 12m @336W | 8m @110W"
     },
     {
+      "id": 100018263,
+      "date": "2026-04-29",
+      "name": "Endurance #7",
+      "type": "WORKOUT",
+      "planned_tss": 45,
+      "duration_hours": 0.97,
+      "duration_formatted": "58m",
+      "workout_summary": null,
+      "description_preview": "After warming up, the focus today is on improving your aerobic endurance. The main set consists of a variety of low-intensity aerobic efforts. Relax and enjoy the ride today.\nWarmup\n- 10m ramp 45.4-75.4%"
+    },
+    {
       "id": 97841305,
       "date": "2026-04-30",
       "name": "Lower Body",
@@ -1254,6 +1264,17 @@
       "planned_tss": null,
       "duration_hours": 1.5,
       "duration_formatted": "1h30m",
+      "workout_summary": null,
+      "description_preview": null
+    },
+    {
+      "id": 100017993,
+      "date": "2026-05-01",
+      "name": "Easy Run",
+      "type": "WORKOUT",
+      "planned_tss": 40,
+      "duration_hours": 0.83,
+      "duration_formatted": "50m",
       "workout_summary": null,
       "description_preview": null
     },
@@ -1281,20 +1302,20 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 8,
-    "success": 8,
-    "patternA": 2,
+    "attempted": 12,
+    "success": 10,
+    "patternA": 4,
     "patternB": 6,
-    "bail_no_workout_doc": 9,
-    "bail_no_match": 0
+    "bail_no_workout_doc": 8,
+    "bail_no_match": 2
   },
   "weekly_summary": {
     "total_training_hours": 8.46,
     "total_training_formatted": "8h27m",
     "total_tss": 484,
     "activities_count": 7,
-    "avg_hrv": 97.5,
-    "avg_resting_hr": 42.8
+    "avg_hrv": 97.2,
+    "avg_resting_hr": 44.0
   },
   "race_calendar": {
     "next_race": null,
