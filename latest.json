@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-25T12:03:26.218705",
+    "last_updated": "2026-03-25T13:49:21.531890",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.81"
@@ -313,10 +313,10 @@
         "stream_2": {
           "planned_tss_delta": 1.9,
           "hard_sessions_planned": 1,
-          "race_proximity": null,
+          "race_proximity": 25,
           "next_week_load": 0.52,
           "plan_coverage_current_week": 1.0,
-          "plan_coverage_next_week": 1.2
+          "plan_coverage_next_week": 1.4
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -351,7 +351,7 @@
     "p_max": 1222,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-25T12:03:26.217815",
+    "calculation_timestamp": "2026-03-25T13:49:21.531056",
     "data_quality": {
       "hrv_data_points": 5,
       "rhr_data_points": 5,
@@ -864,6 +864,17 @@
       "description": ""
     },
     {
+      "id": 100609605,
+      "date": "2026-04-03",
+      "name": "Marseille",
+      "type": "HOLIDAY",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "description_preview": null
+    },
+    {
       "id": 97224452,
       "date": "2026-04-06",
       "name": "Weekly",
@@ -1008,22 +1019,22 @@
       "date": "2026-04-18",
       "name": "Group Ride",
       "type": "WORKOUT",
-      "planned_tss": 250,
-      "duration_hours": 5.0,
-      "duration_formatted": "5h",
+      "planned_tss": 100,
+      "duration_hours": 2.0,
+      "duration_formatted": "2h",
       "workout_summary": null,
       "description_preview": null
     },
     {
-      "id": 97843218,
+      "id": 100604175,
       "date": "2026-04-19",
-      "name": "Group Ride",
-      "type": "WORKOUT",
-      "planned_tss": 125,
-      "duration_hours": 2.5,
-      "duration_formatted": "2h30m",
+      "name": "LA OLANO 8 CIMAS",
+      "type": "RACE_B",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
       "workout_summary": null,
-      "description_preview": "Easy Z2 (if possible) no big effort in ascents"
+      "description_preview": null
     },
     {
       "id": 97224456,
@@ -1289,7 +1300,7 @@
     "success": 11,
     "patternA": 5,
     "patternB": 6,
-    "bail_no_workout_doc": 8,
+    "bail_no_workout_doc": 7,
     "bail_no_match": 2
   },
   "weekly_summary": {
@@ -1301,8 +1312,26 @@
     "avg_resting_hr": 44.8
   },
   "race_calendar": {
-    "next_race": null,
-    "all_races": [],
+    "next_race": {
+      "name": "LA OLANO 8 CIMAS",
+      "date": "2026-04-19",
+      "category": "RACE_B",
+      "type": "Ride",
+      "days_until": 25,
+      "moving_time_seconds": null,
+      "distance_meters": 133000.0
+    },
+    "all_races": [
+      {
+        "name": "LA OLANO 8 CIMAS",
+        "date": "2026-04-19",
+        "category": "RACE_B",
+        "type": "Ride",
+        "days_until": 25,
+        "moving_time_seconds": null,
+        "distance_meters": 133000.0
+      }
+    ],
     "taper_alert": {
       "active": false
     },
