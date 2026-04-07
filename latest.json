@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-07T14:14:52.163150",
+    "last_updated": "2026-04-07T15:46:36.977103",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.81"
@@ -62,7 +62,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 16.2
+        "value": 11.6
       }
     },
     "signal_summary": {
@@ -120,10 +120,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 62.55,
-      "atl": 46.35,
-      "tsb": 16.2,
-      "ramp_rate": -5.14,
+      "ctl": 63.54,
+      "atl": 51.95,
+      "tsb": 11.59,
+      "ramp_rate": -4.16,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -358,12 +358,12 @@
     "p_max": 1214,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-07T14:14:52.162213",
+    "calculation_timestamp": "2026-04-07T15:46:36.976200",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
       "activities_7d": 8,
-      "activities_28d": 32,
+      "activities_28d": 29,
       "planned_workouts_7d": 4,
       "ftp_history_days": {
         "indoor": 0,
@@ -372,6 +372,40 @@
     }
   },
   "recent_activities": [
+    {
+      "id": "18013718051",
+      "date": "2026-04-07T15:31:53",
+      "type": "Unknown",
+      "name": "",
+      "duration_hours": 0.0,
+      "distance_km": 0.0,
+      "tss": null,
+      "intensity_factor": null,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": null,
+      "max_hr": null,
+      "avg_cadence": null,
+      "avg_speed": null,
+      "max_speed": null,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": null,
+      "calories": null,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "efficiency_factor": null,
+      "hrrc": null,
+      "elevation_m": null,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": null
+    },
     {
       "id": "18004125276",
       "date": "2026-04-06T15:07:16",
@@ -598,40 +632,6 @@
     {
       "id": "18012926577",
       "date": "2026-04-01T16:29:36",
-      "type": "Unknown",
-      "name": "",
-      "duration_hours": 0.0,
-      "distance_km": 0.0,
-      "tss": null,
-      "intensity_factor": null,
-      "avg_power": null,
-      "normalized_power": null,
-      "avg_hr": null,
-      "max_hr": null,
-      "avg_cadence": null,
-      "avg_speed": null,
-      "max_speed": null,
-      "avg_pace": null,
-      "avg_temp": null,
-      "weather": null,
-      "humidity": null,
-      "wind_speed": null,
-      "work_kj": null,
-      "calories": null,
-      "carbs_used": null,
-      "carbs_ingested": null,
-      "variability_index": null,
-      "decoupling": null,
-      "efficiency_factor": null,
-      "hrrc": null,
-      "elevation_m": null,
-      "feel": null,
-      "rpe": null,
-      "zone_distribution": null
-    },
-    {
-      "id": "17939463434",
-      "date": "2026-04-01T16:29:35",
       "type": "Unknown",
       "name": "",
       "duration_hours": 0.0,
