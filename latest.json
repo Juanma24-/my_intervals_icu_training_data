@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-09T13:14:59.943947",
+    "last_updated": "2026-04-09T15:00:46.781619",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.81"
@@ -287,7 +287,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 2.22,
+          "planned_tss_delta": 1.97,
           "hard_sessions_planned": 1,
           "race_proximity": 10,
           "next_week_load": 0.89,
@@ -327,7 +327,7 @@
     "p_max": 1211,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-09T13:14:59.943167",
+    "calculation_timestamp": "2026-04-09T15:00:46.780819",
     "data_quality": {
       "hrv_data_points": 4,
       "rhr_data_points": 4,
@@ -730,8 +730,19 @@
   ],
   "planned_workouts": [
     {
-      "id": 97222292,
+      "id": 97842885,
       "date": "2026-04-10",
+      "name": "Group Ride",
+      "type": "WORKOUT",
+      "planned_tss": 200,
+      "duration_hours": 3.5,
+      "duration_formatted": "3h30m",
+      "workout_summary": null,
+      "description": ""
+    },
+    {
+      "id": 97222292,
+      "date": "2026-04-11",
       "name": "3Dapt Long Test 12min",
       "type": "WORKOUT",
       "planned_tss": 67,
@@ -739,17 +750,6 @@
       "duration_formatted": "41m",
       "workout_summary": "8m @110W | 4\u00d730s @258W / 30s rec | 1m @110W | 2m @284W | 1m @110W | 30s @323W | 4m @110W | 12m @336W | 8m @110W",
       "description": "In this test, the purpose is to record the best 10-min power. The warm-up consists of low intensity followed by some threshold toggles, then two priming efforts, then a maximal 10-min effort in the free ride mode. Try to pace yourself evenly - if you notice after 3-4 minutes that the power you are attempting is too high or low, adjust accordingly to be able to finish strong.\n\n- 8m 30-55%\n- 30s 95-105%\n- 30s 45-55%\n- 30s 95-105%\n- 30s 45-55%\n- 30s 95-105%\n- 30s 45-55%\n- 30s 95-105%\n- 1m 30-55%\n- 1m 30-55%\n- 2m 105-115%\n- 1m 30-55%\n- 30s 120-130%\n- 4m 30-55%\n- 12m Freeride 120-140% - mean max power\n- 8m 30-55%"
-    },
-    {
-      "id": 97842885,
-      "date": "2026-04-11",
-      "name": "Group Ride",
-      "type": "WORKOUT",
-      "planned_tss": 250,
-      "duration_hours": 5.0,
-      "duration_formatted": "5h",
-      "workout_summary": null,
-      "description": ""
     },
     {
       "id": 97843211,
