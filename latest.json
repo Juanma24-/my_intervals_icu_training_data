@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-13T00:02:32.065040",
+    "last_updated": "2026-04-13T03:51:53.147455",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.81"
@@ -35,7 +35,7 @@
       "value": 6,
       "severity": "info",
       "threshold": "RACE_B within 7 days",
-      "context": "Race week D-6 of 'LA OLANO 8 CIMAS'. Today: Recovery, 0-19 TSS. Z1-Z2 only",
+      "context": "Race week D-6 of 'LA OLANO 8 CIMAS'. Today: Recovery, 0-18 TSS. Z1-Z2 only",
       "persistence_days": null,
       "tier": 1
     }
@@ -71,7 +71,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 3.4
+        "value": 14.9
       }
     },
     "signal_summary": {
@@ -102,8 +102,8 @@
   },
   "history": {
     "available": true,
-    "last_generated": "2026-03-12",
-    "age_days": 31,
+    "last_generated": "2026-04-13",
+    "age_days": 0,
     "total_months": 35,
     "history_confidence": "high"
   },
@@ -135,17 +135,17 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 64.36,
-      "atl": 61.01,
-      "tsb": 3.35,
-      "ramp_rate": 0.58,
+      "ctl": 61.48,
+      "atl": 46.59,
+      "tsb": 14.89,
+      "ramp_rate": -2.29,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
-      "eftp": 257.2,
-      "w_prime": 20803,
+      "eftp": 256.6,
+      "w_prime": 20761,
       "w_prime_kj": 20.8,
-      "p_max": 1209,
+      "p_max": 1206,
       "vo2max": null,
       "sports": {
         "cycling": {
@@ -331,16 +331,16 @@
       ],
       "basis": {
         "stream_1": {
-          "ctl_slope": -0.45,
+          "ctl_slope": -0.95,
           "acwr_trend": "falling",
-          "hard_day_pattern": 2.8,
+          "hard_day_pattern": 2.5,
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.89,
+          "planned_tss_delta": 1.12,
           "hard_sessions_planned": 3,
           "race_proximity": 6,
-          "next_week_load": 1.52,
+          "next_week_load": 1.91,
           "plan_coverage_current_week": 2.0,
           "plan_coverage_next_week": 1.8
         },
@@ -371,13 +371,13 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 257.2,
-    "w_prime": 20803,
+    "eftp": 256.6,
+    "w_prime": 20761,
     "w_prime_kj": 20.8,
-    "p_max": 1209,
+    "p_max": 1206,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-13T00:02:32.064172",
+    "calculation_timestamp": "2026-04-13T03:51:53.146620",
     "data_quality": {
       "hrv_data_points": 4,
       "rhr_data_points": 4,
@@ -1446,18 +1446,18 @@
       "event_moving_time_seconds": null,
       "days_until_event": 6,
       "current_day": "D-6",
-      "ctl_baseline": 64.4,
-      "normal_weekly_tss": 450.5,
+      "ctl_baseline": 61.5,
+      "normal_weekly_tss": 430.4,
       "race_week_tss_budget": {
-        "min": 225,
-        "max": 293
+        "min": 215,
+        "max": 280
       },
       "race_week_tss_spent": 0,
       "race_week_tss_remaining": {
-        "min": 225,
-        "max": 293
+        "min": 215,
+        "max": 280
       },
-      "projected_race_day_tsb": 29.9,
+      "projected_race_day_tsb": 33.5,
       "tsb_target_range": {
         "min": 5,
         "max": 15
@@ -1466,7 +1466,7 @@
         "label": "Recovery",
         "load_target_tss": {
           "min": 0,
-          "max": 19
+          "max": 18
         },
         "zones": "Z1-Z2 only",
         "purpose": "Active recovery."
