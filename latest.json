@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-19T23:20:35.619934",
+    "last_updated": "2026-04-20T00:00:05.208095",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.81"
@@ -41,10 +41,10 @@
     },
     {
       "metric": "race_week_tsb",
-      "value": -13.0,
+      "value": -4.2,
       "severity": "warning",
       "threshold": "TSB target 5-15",
-      "context": "Projected race-day TSB -13.0 is below target range 5-15. Consider additional rest to reach target.",
+      "context": "Projected race-day TSB -4.2 is below target range 5-15. Consider additional rest to reach target.",
       "persistence_days": null,
       "tier": 1
     }
@@ -140,10 +140,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 64.45,
-      "atl": 77.46,
-      "tsb": -13.01,
-      "ramp_rate": 1.48,
+      "ctl": 62.93,
+      "atl": 67.15,
+      "tsb": -4.22,
+      "ramp_rate": 1.44,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -312,13 +312,12 @@
         "note": "Compares 7d vs 28d Seiler TID to detect distribution shifts. pi_delta positive = more polarized acutely."
       }
     },
-    "consistency_index": 0.33,
+    "consistency_index": 0.4,
     "consistency_details": {
-      "planned_days": 6,
+      "planned_days": 5,
       "completed_days": 3,
       "matched_days": 2,
       "planned_dates": [
-        "2026-04-13",
         "2026-04-14",
         "2026-04-15",
         "2026-04-16",
@@ -345,12 +344,12 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": null,
-          "hard_sessions_planned": 1,
+          "planned_tss_delta": 1.91,
+          "hard_sessions_planned": 3,
           "race_proximity": 0,
-          "next_week_load": 1.91,
-          "plan_coverage_current_week": 0.2,
-          "plan_coverage_next_week": 1.8
+          "next_week_load": 1.9,
+          "plan_coverage_current_week": 1.8,
+          "plan_coverage_next_week": 2.0
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -385,13 +384,13 @@
     "p_max": 1200,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-19T23:20:35.619044",
+    "calculation_timestamp": "2026-04-20T00:00:05.207324",
     "data_quality": {
       "hrv_data_points": 4,
       "rhr_data_points": 4,
       "activities_7d": 8,
       "activities_28d": 30,
-      "planned_workouts_7d": 10,
+      "planned_workouts_7d": 6,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -1395,6 +1394,39 @@
       "duration_formatted": "1h30m",
       "workout_summary": null,
       "description_preview": null
+    },
+    {
+      "id": 97224465,
+      "date": "2026-06-01",
+      "name": "Weekly",
+      "type": "TARGET",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "description_preview": null
+    },
+    {
+      "id": 97224486,
+      "date": "2026-06-01",
+      "name": "Weekly",
+      "type": "TARGET",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "description_preview": null
+    },
+    {
+      "id": 97841243,
+      "date": "2026-06-01",
+      "name": "Upper Body",
+      "type": "WORKOUT",
+      "planned_tss": null,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": null,
+      "description_preview": null
     }
   ],
   "workout_summary_stats": {
@@ -1456,18 +1488,18 @@
       "event_moving_time_seconds": null,
       "days_until_event": 0,
       "current_day": "D-0",
-      "ctl_baseline": 64.5,
-      "normal_weekly_tss": 451.2,
+      "ctl_baseline": 62.9,
+      "normal_weekly_tss": 440.5,
       "race_week_tss_budget": {
-        "min": 226,
-        "max": 293
+        "min": 220,
+        "max": 286
       },
       "race_week_tss_spent": 419,
       "race_week_tss_remaining": {
         "min": 0,
         "max": 0
       },
-      "projected_race_day_tsb": -13.0,
+      "projected_race_day_tsb": -4.2,
       "tsb_target_range": {
         "min": 5,
         "max": 15
@@ -1496,7 +1528,7 @@
       "go_no_go": {
         "tsb_status": "flag",
         "notes": [
-          "Projected race-day TSB -13.0 is significantly below target range 5-15. Fatigue may impact performance."
+          "Projected race-day TSB -4.2 is below target range 5-15. Consider additional rest."
         ]
       }
     }
