@@ -9,13 +9,13 @@
     "quick_stats": {
       "total_training_hours": 6.64,
       "total_training_formatted": "6h38m",
-      "total_activities": 8,
+      "total_activities": 7,
       "total_tss": 419
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-20T00:00:05.208095",
+    "last_updated": "2026-04-20T03:43:24.075551",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.81"
@@ -29,24 +29,6 @@
       "context": "ACWR 1.34 at edge of optimal range. Monitor closely. Alarm at 0.75/1.35.",
       "persistence_days": null,
       "tier": 2
-    },
-    {
-      "metric": "race_week",
-      "value": 0,
-      "severity": "info",
-      "threshold": "RACE_B within 7 days",
-      "context": "Race week D-0 of 'LA OLANO 8 CIMAS'. Today: Race day, 0-0 TSS. Race effort",
-      "persistence_days": null,
-      "tier": 1
-    },
-    {
-      "metric": "race_week_tsb",
-      "value": -4.2,
-      "severity": "warning",
-      "threshold": "TSB target 5-15",
-      "context": "Projected race-day TSB -4.2 is below target range 5-15. Consider additional rest to reach target.",
-      "persistence_days": null,
-      "tier": 1
     }
   ],
   "readiness_decision": {
@@ -56,13 +38,13 @@
       "hrv": {
         "status": "unavailable",
         "value": null,
-        "baseline_7d": 90.3,
+        "baseline_7d": 93.0,
         "delta_pct": null
       },
       "rhr": {
         "status": "unavailable",
         "value": null,
-        "baseline_7d": 46.5,
+        "baseline_7d": 46.7,
         "delta_bpm": null
       },
       "sleep": {
@@ -86,12 +68,12 @@
       "unavailable": 4
     },
     "phase_context": {
-      "phase": "Taper",
+      "phase": "Build",
       "phase_week": 0,
-      "amber_threshold": 1,
-      "modifier_applied": "race_week_tightened"
+      "amber_threshold": 3,
+      "modifier_applied": "build_loosened"
     },
-    "race_week_defers": true,
+    "race_week_defers": false,
     "modification": {
       "triggers": [
         "acwr"
@@ -108,7 +90,7 @@
   "history": {
     "available": true,
     "last_generated": "2026-04-13",
-    "age_days": 6,
+    "age_days": 7,
     "total_months": 35,
     "history_confidence": "high"
   },
@@ -116,7 +98,7 @@
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
     "total_duration_decimal_hours": 6.64,
-    "total_activities": 8,
+    "total_activities": 7,
     "by_activity_type": {
       "Ride": {
         "duration_decimal_hours": 5.02,
@@ -126,7 +108,7 @@
       },
       "Unknown": {
         "duration_decimal_hours": 0.0,
-        "count": 5,
+        "count": 4,
         "tss": 0,
         "distance_km": 0.0
       },
@@ -144,7 +126,7 @@
       "atl": 67.15,
       "tsb": -4.22,
       "ramp_rate": 1.44,
-      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
+      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
       "eftp": 255.4,
@@ -198,10 +180,10 @@
   },
   "derived_metrics": {
     "recovery_index": null,
-    "hrv_baseline_7d": 90.3,
-    "rhr_baseline_7d": 46.5,
-    "hrv_baseline_28d": 99.9,
-    "rhr_baseline_28d": 44.8,
+    "hrv_baseline_7d": 93.0,
+    "rhr_baseline_7d": 46.7,
+    "hrv_baseline_28d": 100.6,
+    "rhr_baseline_28d": 45.0,
     "latest_hrv": null,
     "latest_rhr": null,
     "acwr": 1.34,
@@ -312,9 +294,9 @@
         "note": "Compares 7d vs 28d Seiler TID to detect distribution shifts. pi_delta positive = more polarized acutely."
       }
     },
-    "consistency_index": 0.4,
+    "consistency_index": 0.33,
     "consistency_details": {
-      "planned_days": 5,
+      "planned_days": 6,
       "completed_days": 3,
       "matched_days": 2,
       "planned_dates": [
@@ -322,7 +304,8 @@
         "2026-04-15",
         "2026-04-16",
         "2026-04-17",
-        "2026-04-18"
+        "2026-04-18",
+        "2026-04-20"
       ],
       "completed_dates": [
         "2026-04-14",
@@ -331,10 +314,10 @@
       ]
     },
     "phase_detection": {
-      "phase": "Taper",
+      "phase": "Build",
       "confidence": "medium",
       "reason_codes": [
-        "RACE_IMMINENT"
+        "BUILD_RESUMING_AFTER_DELOAD"
       ],
       "basis": {
         "stream_1": {
@@ -346,7 +329,7 @@
         "stream_2": {
           "planned_tss_delta": 1.91,
           "hard_sessions_planned": 3,
-          "race_proximity": 0,
+          "race_proximity": 69,
           "next_week_load": 1.9,
           "plan_coverage_current_week": 1.8,
           "plan_coverage_next_week": 2.0
@@ -359,9 +342,9 @@
       "dossier_declared": null,
       "dossier_agreement": null
     },
-    "phase_detected": "Taper",
+    "phase_detected": "Build",
     "phase_triggers": [
-      "RACE_IMMINENT"
+      "BUILD_RESUMING_AFTER_DELOAD"
     ],
     "seasonal_context": "Late Base / Build",
     "benchmark_indoor": {
@@ -384,13 +367,13 @@
     "p_max": 1200,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-20T00:00:05.207324",
+    "calculation_timestamp": "2026-04-20T03:43:24.074759",
     "data_quality": {
-      "hrv_data_points": 4,
-      "rhr_data_points": 4,
-      "activities_7d": 8,
-      "activities_28d": 30,
-      "planned_workouts_7d": 6,
+      "hrv_data_points": 3,
+      "rhr_data_points": 3,
+      "activities_7d": 7,
+      "activities_28d": 29,
+      "planned_workouts_7d": 9,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -692,59 +675,9 @@
           "z7_time": 88
         }
       }
-    },
-    {
-      "id": "18095050886",
-      "date": "2026-04-13T16:59:17",
-      "type": "Unknown",
-      "name": "",
-      "duration_hours": 0.0,
-      "distance_km": 0.0,
-      "tss": null,
-      "intensity_factor": null,
-      "avg_power": null,
-      "normalized_power": null,
-      "avg_hr": null,
-      "max_hr": null,
-      "avg_cadence": null,
-      "avg_speed": null,
-      "max_speed": null,
-      "avg_pace": null,
-      "avg_temp": null,
-      "weather": null,
-      "humidity": null,
-      "wind_speed": null,
-      "work_kj": null,
-      "calories": null,
-      "carbs_used": null,
-      "carbs_ingested": null,
-      "variability_index": null,
-      "decoupling": null,
-      "efficiency_factor": null,
-      "hrrc": null,
-      "elevation_m": null,
-      "feel": null,
-      "rpe": null,
-      "zone_distribution": null
     }
   ],
   "wellness_data": [
-    {
-      "date": "2026-04-13",
-      "weight_kg": 63.3,
-      "resting_hr": 46,
-      "hrv_rmssd": 82.03261,
-      "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_quality": null,
-      "sleep_score": null,
-      "mental_energy": null,
-      "fatigue": null,
-      "soreness": null,
-      "avg_sleeping_hr": null,
-      "vo2max": null
-    },
     {
       "date": "2026-04-14",
       "weight_kg": 63.0,
@@ -840,20 +773,25 @@
       "soreness": null,
       "avg_sleeping_hr": null,
       "vo2max": null
+    },
+    {
+      "date": "2026-04-20",
+      "weight_kg": null,
+      "resting_hr": null,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_formatted": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "fatigue": null,
+      "soreness": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null
     }
   ],
   "planned_workouts": [
-    {
-      "id": 100604175,
-      "date": "2026-04-19",
-      "name": "LA OLANO 8 CIMAS",
-      "type": "RACE_B",
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "description": ""
-    },
     {
       "id": 97224456,
       "date": "2026-04-20",
@@ -962,7 +900,7 @@
       "duration_hours": 0.0,
       "duration_formatted": "0s",
       "workout_summary": null,
-      "description_preview": null
+      "description": ""
     },
     {
       "id": 97224479,
@@ -973,7 +911,7 @@
       "duration_hours": 0.0,
       "duration_formatted": "0s",
       "workout_summary": null,
-      "description_preview": null
+      "description": ""
     },
     {
       "id": 97224495,
@@ -984,7 +922,7 @@
       "duration_hours": 0.0,
       "duration_formatted": "0s",
       "workout_summary": null,
-      "description_preview": "Focus on easier efforts, reduced volume, and allowing your body to adapt to training stress (Ride, Run)"
+      "description": "Focus on easier efforts, reduced volume, and allowing your body to adapt to training stress (Ride, Run)"
     },
     {
       "id": 97841231,
@@ -995,7 +933,7 @@
       "duration_hours": 1.5,
       "duration_formatted": "1h30m",
       "workout_summary": null,
-      "description_preview": null
+      "description": ""
     },
     {
       "id": 97841463,
@@ -1441,36 +1379,27 @@
     "total_training_hours": 6.64,
     "total_training_formatted": "6h38m",
     "total_tss": 419,
-    "activities_count": 8,
-    "avg_hrv": 90.3,
-    "avg_resting_hr": 46.5
+    "activities_count": 7,
+    "avg_hrv": 93.0,
+    "avg_resting_hr": 46.7
   },
   "race_calendar": {
     "next_race": {
-      "name": "LA OLANO 8 CIMAS",
-      "date": "2026-04-19",
-      "category": "RACE_B",
+      "name": "La Marmotte",
+      "date": "2026-06-28",
+      "category": "RACE_A",
       "type": "Ride",
-      "days_until": 0,
+      "days_until": 69,
       "moving_time_seconds": null,
-      "distance_meters": 133000.0
+      "distance_meters": null
     },
     "all_races": [
-      {
-        "name": "LA OLANO 8 CIMAS",
-        "date": "2026-04-19",
-        "category": "RACE_B",
-        "type": "Ride",
-        "days_until": 0,
-        "moving_time_seconds": null,
-        "distance_meters": 133000.0
-      },
       {
         "name": "La Marmotte",
         "date": "2026-06-28",
         "category": "RACE_A",
         "type": "Ride",
-        "days_until": 70,
+        "days_until": 69,
         "moving_time_seconds": null,
         "distance_meters": null
       }
@@ -1479,58 +1408,7 @@
       "active": false
     },
     "race_week": {
-      "active": true,
-      "event_name": "LA OLANO 8 CIMAS",
-      "event_date": "2026-04-19",
-      "event_category": "RACE_B",
-      "event_type": "Ride",
-      "event_duration_class": "medium",
-      "event_moving_time_seconds": null,
-      "days_until_event": 0,
-      "current_day": "D-0",
-      "ctl_baseline": 62.9,
-      "normal_weekly_tss": 440.5,
-      "race_week_tss_budget": {
-        "min": 220,
-        "max": 286
-      },
-      "race_week_tss_spent": 419,
-      "race_week_tss_remaining": {
-        "min": 0,
-        "max": 0
-      },
-      "projected_race_day_tsb": -4.2,
-      "tsb_target_range": {
-        "min": 5,
-        "max": 15
-      },
-      "today": {
-        "label": "Race day",
-        "load_target_tss": {
-          "min": 0,
-          "max": 0
-        },
-        "zones": "Race effort",
-        "purpose": "Go/no-go assessment. Execute race plan."
-      },
-      "carb_loading": {
-        "applicable": false,
-        "active": false,
-        "starts": "D-4",
-        "start_date": "2026-04-15",
-        "note": null
-      },
-      "opener": {
-        "day": "D-2",
-        "date": "2026-04-17",
-        "intensity": "standard"
-      },
-      "go_no_go": {
-        "tsb_status": "flag",
-        "notes": [
-          "Projected race-day TSB -4.2 is below target range 5-15. Consider additional rest."
-        ]
-      }
+      "active": false
     }
   }
 }
