@@ -9,13 +9,13 @@
     "quick_stats": {
       "total_training_hours": 9.17,
       "total_training_formatted": "9h9m",
-      "total_activities": 8,
+      "total_activities": 6,
       "total_tss": 514
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-26T23:42:22.156606",
+    "last_updated": "2026-04-27T01:14:59.582405",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.81"
@@ -81,7 +81,7 @@
   "history": {
     "available": true,
     "last_generated": "2026-04-13",
-    "age_days": 13,
+    "age_days": 14,
     "total_months": 35,
     "history_confidence": "high"
   },
@@ -89,7 +89,7 @@
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
     "total_duration_decimal_hours": 9.17,
-    "total_activities": 8,
+    "total_activities": 6,
     "by_activity_type": {
       "Ride": {
         "duration_decimal_hours": 7.56,
@@ -99,7 +99,7 @@
       },
       "Unknown": {
         "duration_decimal_hours": 0.0,
-        "count": 4,
+        "count": 2,
         "tss": 0,
         "distance_km": 0.0
       },
@@ -113,11 +113,11 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 67.06,
-      "atl": 90.84,
-      "tsb": -23.78,
-      "ramp_rate": 2.62,
-      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
+      "ctl": 65.49,
+      "atl": 78.75,
+      "tsb": -13.26,
+      "ramp_rate": 2.56,
+      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
       "eftp": 255.4,
@@ -173,8 +173,8 @@
     "recovery_index": null,
     "hrv_baseline_7d": null,
     "rhr_baseline_7d": null,
-    "hrv_baseline_28d": 96.4,
-    "rhr_baseline_28d": 45.6,
+    "hrv_baseline_28d": 95.8,
+    "rhr_baseline_28d": 45.9,
     "latest_hrv": null,
     "latest_rhr": null,
     "acwr": 1.56,
@@ -291,12 +291,12 @@
       "completed_days": 4,
       "matched_days": 3,
       "planned_dates": [
-        "2026-04-20",
         "2026-04-21",
         "2026-04-22",
         "2026-04-23",
         "2026-04-25",
-        "2026-04-26"
+        "2026-04-26",
+        "2026-04-27"
       ],
       "completed_dates": [
         "2026-04-21",
@@ -319,12 +319,12 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 6.32,
-          "hard_sessions_planned": 0,
-          "race_proximity": 63,
-          "next_week_load": 1.9,
-          "plan_coverage_current_week": 0.2,
-          "plan_coverage_next_week": 2.0
+          "planned_tss_delta": 1.9,
+          "hard_sessions_planned": 1,
+          "race_proximity": 62,
+          "next_week_load": 2.13,
+          "plan_coverage_current_week": 2.0,
+          "plan_coverage_next_week": 1.8
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -359,13 +359,13 @@
     "p_max": 1200,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-26T23:42:22.155786",
+    "calculation_timestamp": "2026-04-27T01:14:59.581397",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 0,
-      "activities_7d": 8,
-      "activities_28d": 31,
-      "planned_workouts_7d": 8,
+      "activities_7d": 6,
+      "activities_28d": 30,
+      "planned_workouts_7d": 9,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -652,93 +652,9 @@
           "z7_time": 84
         }
       }
-    },
-    {
-      "id": "18186303048",
-      "date": "2026-04-20T18:01:00",
-      "type": "Unknown",
-      "name": "",
-      "duration_hours": 0.0,
-      "distance_km": 0.0,
-      "tss": null,
-      "intensity_factor": null,
-      "avg_power": null,
-      "normalized_power": null,
-      "avg_hr": null,
-      "max_hr": null,
-      "avg_cadence": null,
-      "avg_speed": null,
-      "max_speed": null,
-      "avg_pace": null,
-      "avg_temp": null,
-      "weather": null,
-      "humidity": null,
-      "wind_speed": null,
-      "work_kj": null,
-      "calories": null,
-      "carbs_used": null,
-      "carbs_ingested": null,
-      "variability_index": null,
-      "decoupling": null,
-      "efficiency_factor": null,
-      "hrrc": null,
-      "elevation_m": null,
-      "feel": null,
-      "rpe": null,
-      "zone_distribution": null
-    },
-    {
-      "id": "18186334316",
-      "date": "2026-04-20T16:27:18",
-      "type": "Unknown",
-      "name": "",
-      "duration_hours": 0.0,
-      "distance_km": 0.0,
-      "tss": null,
-      "intensity_factor": null,
-      "avg_power": null,
-      "normalized_power": null,
-      "avg_hr": null,
-      "max_hr": null,
-      "avg_cadence": null,
-      "avg_speed": null,
-      "max_speed": null,
-      "avg_pace": null,
-      "avg_temp": null,
-      "weather": null,
-      "humidity": null,
-      "wind_speed": null,
-      "work_kj": null,
-      "calories": null,
-      "carbs_used": null,
-      "carbs_ingested": null,
-      "variability_index": null,
-      "decoupling": null,
-      "efficiency_factor": null,
-      "hrrc": null,
-      "elevation_m": null,
-      "feel": null,
-      "rpe": null,
-      "zone_distribution": null
     }
   ],
   "wellness_data": [
-    {
-      "date": "2026-04-20",
-      "weight_kg": null,
-      "resting_hr": null,
-      "hrv_rmssd": null,
-      "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_quality": null,
-      "sleep_score": null,
-      "mental_energy": null,
-      "fatigue": null,
-      "soreness": null,
-      "avg_sleeping_hr": null,
-      "vo2max": null
-    },
     {
       "date": "2026-04-21",
       "weight_kg": null,
@@ -834,20 +750,25 @@
       "soreness": null,
       "avg_sleeping_hr": null,
       "vo2max": null
+    },
+    {
+      "date": "2026-04-27",
+      "weight_kg": null,
+      "resting_hr": null,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_formatted": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "fatigue": null,
+      "soreness": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null
     }
   ],
   "planned_workouts": [
-    {
-      "id": 97842908,
-      "date": "2026-04-26",
-      "name": "Group Ride",
-      "type": "WORKOUT",
-      "planned_tss": 250,
-      "duration_hours": 5.0,
-      "duration_formatted": "5h",
-      "workout_summary": null,
-      "description": ""
-    },
     {
       "id": 97224458,
       "date": "2026-04-27",
@@ -967,7 +888,7 @@
       "duration_hours": 0.0,
       "duration_formatted": "0s",
       "workout_summary": null,
-      "description_preview": null
+      "description": ""
     },
     {
       "id": 97224481,
@@ -978,7 +899,7 @@
       "duration_hours": 0.0,
       "duration_formatted": "0s",
       "workout_summary": null,
-      "description_preview": null
+      "description": ""
     },
     {
       "id": 97841232,
@@ -989,7 +910,7 @@
       "duration_hours": 1.5,
       "duration_formatted": "1h30m",
       "workout_summary": null,
-      "description_preview": null
+      "description": ""
     },
     {
       "id": 97841429,
@@ -1334,6 +1255,39 @@
       "duration_formatted": "1h30m",
       "workout_summary": null,
       "description_preview": null
+    },
+    {
+      "id": 97224466,
+      "date": "2026-06-08",
+      "name": "Weekly",
+      "type": "TARGET",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "description_preview": null
+    },
+    {
+      "id": 97224487,
+      "date": "2026-06-08",
+      "name": "Weekly",
+      "type": "TARGET",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "description_preview": null
+    },
+    {
+      "id": 97841256,
+      "date": "2026-06-08",
+      "name": "Upper Body",
+      "type": "WORKOUT",
+      "planned_tss": null,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": null,
+      "description_preview": null
     }
   ],
   "workout_summary_stats": {
@@ -1348,7 +1302,7 @@
     "total_training_hours": 9.17,
     "total_training_formatted": "9h9m",
     "total_tss": 514,
-    "activities_count": 8,
+    "activities_count": 6,
     "avg_hrv": null,
     "avg_resting_hr": null
   },
@@ -1358,7 +1312,7 @@
       "date": "2026-06-28",
       "category": "RACE_A",
       "type": "Ride",
-      "days_until": 63,
+      "days_until": 62,
       "moving_time_seconds": null,
       "distance_meters": null
     },
@@ -1368,7 +1322,7 @@
         "date": "2026-06-28",
         "category": "RACE_A",
         "type": "Ride",
-        "days_until": 63,
+        "days_until": 62,
         "moving_time_seconds": null,
         "distance_meters": null
       }
