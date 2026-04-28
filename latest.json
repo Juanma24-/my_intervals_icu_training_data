@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-28T18:04:51.287095",
+    "last_updated": "2026-04-28T19:55:03.182284",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.81"
@@ -42,10 +42,10 @@
         "delta_pct": null
       },
       "rhr": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 50.8,
-        "delta_bpm": null
+        "status": "green",
+        "value": 45,
+        "baseline_7d": 49.8,
+        "delta_bpm": -4.8
       },
       "sleep": {
         "status": "unavailable",
@@ -62,10 +62,10 @@
       }
     },
     "signal_summary": {
-      "green": 0,
+      "green": 1,
       "amber": 0,
       "red": 1,
-      "unavailable": 4
+      "unavailable": 3
     },
     "phase_context": {
       "phase": "Build",
@@ -131,8 +131,8 @@
           "max_hr": 191,
           "threshold_pace": null,
           "pace_units": null,
-          "ftp": 262,
-          "ftp_indoor": 259
+          "ftp": 265,
+          "ftp_indoor": 265
         },
         "run": {
           "lthr": 173,
@@ -162,7 +162,7 @@
     },
     "current_metrics": {
       "weight_kg": 63.0,
-      "resting_hr": 60,
+      "resting_hr": 45,
       "hrv": null,
       "sleep_quality": null,
       "sleep_hours": null,
@@ -172,11 +172,11 @@
   "derived_metrics": {
     "recovery_index": null,
     "hrv_baseline_7d": 100.0,
-    "rhr_baseline_7d": 50.8,
+    "rhr_baseline_7d": 49.8,
     "hrv_baseline_28d": 95.7,
-    "rhr_baseline_28d": 46.8,
+    "rhr_baseline_28d": 46.7,
     "latest_hrv": null,
-    "latest_rhr": null,
+    "latest_rhr": 45,
     "acwr": 1.6,
     "acwr_interpretation": "danger",
     "monotony": 0.71,
@@ -340,14 +340,14 @@
     ],
     "seasonal_context": "Late Base / Build",
     "benchmark_indoor": {
-      "current_ftp": 259,
+      "current_ftp": 265,
       "ftp_8_weeks_ago": null,
       "benchmark_index": null,
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
     "benchmark_outdoor": {
-      "current_ftp": 262,
+      "current_ftp": 265,
       "ftp_8_weeks_ago": null,
       "benchmark_index": null,
       "benchmark_percentage": null,
@@ -359,16 +359,16 @@
     "p_max": 1200,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-28T18:04:51.286313",
+    "calculation_timestamp": "2026-04-28T19:55:03.181425",
     "data_quality": {
       "hrv_data_points": 5,
-      "rhr_data_points": 5,
+      "rhr_data_points": 6,
       "activities_7d": 7,
       "activities_28d": 31,
       "planned_workouts_7d": 9,
       "ftp_history_days": {
-        "indoor": 0,
-        "outdoor": 0
+        "indoor": 47,
+        "outdoor": 47
       }
     }
   },
@@ -403,8 +403,8 @@
       "efficiency_factor": 1.6962963,
       "hrrc": 37,
       "elevation_m": 316.0,
-      "feel": null,
-      "rpe": null,
+      "feel": 1,
+      "rpe": 10,
       "zone_distribution": {
         "hr_zones": {
           "z1_time": 1524,
@@ -788,7 +788,7 @@
     {
       "date": "2026-04-28",
       "weight_kg": null,
-      "resting_hr": null,
+      "resting_hr": 45,
       "hrv_rmssd": null,
       "hrv_sdnn": null,
       "sleep_hours": null,
@@ -811,7 +811,7 @@
       "planned_tss": 67,
       "duration_hours": 0.68,
       "duration_formatted": "41m",
-      "workout_summary": "8m @110W | 4\u00d730s @258W / 30s rec | 1m @110W | 2m @284W | 1m @110W | 30s @323W | 4m @110W | 12m @336W | 8m @110W",
+      "workout_summary": "8m @112W | 4\u00d730s @264W / 30s rec | 1m @112W | 2m @291W | 1m @112W | 30s @331W | 4m @112W | 12m @344W | 8m @112W",
       "description": "In this test, the purpose is to record the best 10-min power. The warm-up consists of low intensity followed by some threshold toggles, then two priming efforts, then a maximal 10-min effort in the free ride mode. Try to pace yourself evenly - if you notice after 3-4 minutes that the power you are attempting is too high or low, adjust accordingly to be able to finish strong.\n\n- 8m 30-55%\n- 30s 95-105%\n- 30s 45-55%\n- 30s 95-105%\n- 30s 45-55%\n- 30s 95-105%\n- 30s 45-55%\n- 30s 95-105%\n- 1m 30-55%\n- 1m 30-55%\n- 2m 105-115%\n- 1m 30-55%\n- 30s 120-130%\n- 4m 30-55%\n- 12m Freeride 120-140% - mean max power\n- 8m 30-55%"
     },
     {
@@ -910,7 +910,7 @@
       "planned_tss": 86,
       "duration_hours": 0.72,
       "duration_formatted": "43m10s",
-      "workout_summary": "8m @111W | 4\u00d730s @262W / 30s rec | 1m @111W | 15s @590W | 1m @111W | 10s @707W | 4m @111W | 5\u00d715s @1152W / 3m rec | 8m @111W",
+      "workout_summary": "8m @112W | 4\u00d730s @264W / 30s rec | 1m @112W | 15s @596W | 1m @112W | 10s @716W | 4m @112W | 5\u00d715s @1166W / 3m rec | 8m @112W",
       "description": "In this test, the purpose is to record the best 5-sec power. The warm-up consists of low intensity followed by some threshold toggles, then two priming efforts, then 5 sprint attempts. Do at least 2-3 to make sure a good effort was recorded. Although the sprints are programed as 15-sec free ride efforts, you don't need to sprint for the full duration (just go a little beyond 5 sec).\n\n- 8m 30-55%\n- 30s 95-105%\n- 30s 45-55%\n- 30s 95-105%\n- 30s 45-55%\n- 30s 95-105%\n- 30s 45-55%\n- 30s 95-105%\n- 1m 30-55%\n- 1m 30-55%\n- 15s 200-250%\n- 1m 30-55%\n- 10s 260-280%\n- 4m 30-55%\n- 15s Freeride 380-500% - mean max power\n- 3m 20-45%\n- 15s Freeride 380-500% - mean max power\n- 3m 20-45%\n- 15s Freeride 380-500% - mean max power\n- 3m 20-45%\n- 15s Freeride 380-500% - mean max power\n- 3m 20-45%\n- 15s Freeride 380-500% - mean max power\n- 3m 20-45%\n- 8m 30-55%"
     },
     {
@@ -921,7 +921,7 @@
       "planned_tss": 77,
       "duration_hours": 1.08,
       "duration_formatted": "1h5m",
-      "workout_summary": "5m @174W | 5m @238W | 3m @130W | 12\u00d730s @323W / 30s rec | 5m @142W | 12\u00d730s @323W / 30s rec | 5m @142W | 12\u00d730s @323W / 30s rec | 6m @103W"
+      "workout_summary": "5m @178W | 5m @243W | 3m @133W | 12\u00d730s @331W / 30s rec | 5m @145W | 12\u00d730s @331W / 30s rec | 5m @145W | 12\u00d730s @331W / 30s rec | 6m @106W"
     },
     {
       "id": 97841296,
@@ -1007,7 +1007,7 @@
       "planned_tss": 32,
       "duration_hours": 0.48,
       "duration_formatted": "28m55s",
-      "workout_summary": "8m @111W | 4\u00d730s @262W / 30s rec | 1m @111W | 15s @498W | 1m @111W | 10s @654W | 4m @111W | 2m @392W | 8m @111W"
+      "workout_summary": "8m @112W | 4\u00d730s @264W / 30s rec | 1m @112W | 15s @504W | 1m @112W | 10s @662W | 4m @112W | 2m @398W | 8m @112W"
     },
     {
       "id": 97841167,
@@ -1017,7 +1017,7 @@
       "planned_tss": 57,
       "duration_hours": 0.82,
       "duration_formatted": "49m",
-      "workout_summary": "5m @174W | 5m @238W | 3m @130W | 8\u00d730s @323W / 20s rec | 5m @142W | 8\u00d730s @323W / 20s rec | 5m @142W | 8\u00d730s @323W / 20s rec | 6m @103W"
+      "workout_summary": "5m @178W | 5m @243W | 3m @133W | 8\u00d730s @331W / 20s rec | 5m @145W | 8\u00d730s @331W / 20s rec | 5m @145W | 8\u00d730s @331W / 20s rec | 6m @106W"
     },
     {
       "id": 97841316,
@@ -1104,7 +1104,7 @@
       "planned_tss": 67,
       "duration_hours": 0.68,
       "duration_formatted": "41m",
-      "workout_summary": "8m @110W | 4\u00d730s @258W / 30s rec | 1m @110W | 2m @284W | 1m @110W | 30s @323W | 4m @110W | 12m @336W | 8m @110W"
+      "workout_summary": "8m @112W | 4\u00d730s @264W / 30s rec | 1m @112W | 2m @291W | 1m @112W | 30s @331W | 4m @112W | 12m @344W | 8m @112W"
     },
     {
       "id": 97842264,
@@ -1114,7 +1114,7 @@
       "planned_tss": 32,
       "duration_hours": 0.48,
       "duration_formatted": "28m55s",
-      "workout_summary": "8m @111W | 4\u00d730s @262W / 30s rec | 1m @111W | 15s @498W | 1m @111W | 10s @654W | 4m @111W | 2m @392W | 8m @111W"
+      "workout_summary": "8m @112W | 4\u00d730s @264W / 30s rec | 1m @112W | 15s @504W | 1m @112W | 10s @662W | 4m @112W | 2m @398W | 8m @112W"
     },
     {
       "id": 97842273,
@@ -1124,7 +1124,7 @@
       "planned_tss": 86,
       "duration_hours": 0.72,
       "duration_formatted": "43m10s",
-      "workout_summary": "8m @111W | 4\u00d730s @262W / 30s rec | 1m @111W | 15s @590W | 1m @111W | 10s @707W | 4m @111W | 5\u00d715s @1152W / 3m rec | 8m @111W"
+      "workout_summary": "8m @112W | 4\u00d730s @264W / 30s rec | 1m @112W | 15s @596W | 1m @112W | 10s @716W | 4m @112W | 5\u00d715s @1166W / 3m rec | 8m @112W"
     },
     {
       "id": 97842924,
@@ -1295,7 +1295,7 @@
     "total_tss": 530,
     "activities_count": 7,
     "avg_hrv": 100.0,
-    "avg_resting_hr": 50.8
+    "avg_resting_hr": 49.8
   },
   "race_calendar": {
     "next_race": {
