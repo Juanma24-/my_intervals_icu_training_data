@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-29T04:01:40.084979",
+    "last_updated": "2026-04-29T06:36:25.661984",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.81"
@@ -125,8 +125,8 @@
       "ctl": 63.68,
       "atl": 65.91,
       "tsb": -2.23,
-      "ramp_rate": 2.16,
-      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
+      "ramp_rate": 0.39,
+      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
       "eftp": 265.0,
@@ -294,9 +294,9 @@
         "note": "Compares 7d vs 28d Seiler TID to detect distribution shifts. pi_delta positive = more polarized acutely."
       }
     },
-    "consistency_index": 0.33,
+    "consistency_index": 0.4,
     "consistency_details": {
-      "planned_days": 6,
+      "planned_days": 5,
       "completed_days": 3,
       "matched_days": 2,
       "planned_dates": [
@@ -304,8 +304,7 @@
         "2026-04-25",
         "2026-04-26",
         "2026-04-27",
-        "2026-04-28",
-        "2026-04-29"
+        "2026-04-28"
       ],
       "completed_dates": [
         "2026-04-24",
@@ -331,7 +330,7 @@
           "hard_sessions_planned": 0,
           "race_proximity": 60,
           "next_week_load": 2.13,
-          "plan_coverage_current_week": 1.0,
+          "plan_coverage_current_week": 0.8,
           "plan_coverage_next_week": 1.8
         },
         "data_quality": "good",
@@ -367,7 +366,7 @@
     "p_max": 1200,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-29T04:01:40.084135",
+    "calculation_timestamp": "2026-04-29T06:36:25.661363",
     "data_quality": {
       "hrv_data_points": 4,
       "rhr_data_points": 5,
@@ -758,17 +757,6 @@
     }
   ],
   "planned_workouts": [
-    {
-      "id": 97841231,
-      "date": "2026-04-29",
-      "name": "Upper Body",
-      "type": "WORKOUT",
-      "planned_tss": null,
-      "duration_hours": 1.5,
-      "duration_formatted": "1h30m",
-      "workout_summary": null,
-      "description": ""
-    },
     {
       "id": 97841305,
       "date": "2026-04-30",
