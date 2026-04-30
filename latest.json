@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-30T04:02:27.043238",
+    "last_updated": "2026-04-30T06:40:46.294927",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.81"
@@ -285,9 +285,9 @@
         "note": "Compares 7d vs 28d Seiler TID to detect distribution shifts. pi_delta positive = more polarized acutely."
       }
     },
-    "consistency_index": 0.4,
+    "consistency_index": 0.33,
     "consistency_details": {
-      "planned_days": 5,
+      "planned_days": 6,
       "completed_days": 3,
       "matched_days": 2,
       "planned_dates": [
@@ -295,6 +295,7 @@
         "2026-04-26",
         "2026-04-27",
         "2026-04-28",
+        "2026-04-29",
         "2026-04-30"
       ],
       "completed_dates": [
@@ -357,7 +358,7 @@
     "p_max": 1200,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-30T04:02:27.042384",
+    "calculation_timestamp": "2026-04-30T06:40:46.294069",
     "data_quality": {
       "hrv_data_points": 3,
       "rhr_data_points": 4,
@@ -760,19 +761,8 @@
       "description": ""
     },
     {
-      "id": 100018263,
-      "date": "2026-05-01",
-      "name": "Endurance #7",
-      "type": "WORKOUT",
-      "planned_tss": 45,
-      "duration_hours": 0.97,
-      "duration_formatted": "58m",
-      "workout_summary": null,
-      "description": "After warming up, the focus today is on improving your aerobic endurance. The main set consists of a variety of low-intensity aerobic efforts. Relax and enjoy the ride today.\n\nWarmup\n- 10m ramp 45.4-75.4%\n\n- 1m 62.9%\n- 7m 73%\n- 1m 62.9%\n- 6m 68%\n- 1m 62.9%\n- 7m 73.4%\n- 1m 62.9%\n- 6m 68.4%\n- 1m 62.9%\n- 7m 73%\n\nCooldown\n- 10m ramp 75.4-45.4%"
-    },
-    {
       "id": 97842913,
-      "date": "2026-05-02",
+      "date": "2026-05-01",
       "name": "Group Ride",
       "type": "WORKOUT",
       "planned_tss": 250,
@@ -780,6 +770,17 @@
       "duration_formatted": "5h",
       "workout_summary": null,
       "description": ""
+    },
+    {
+      "id": 100018263,
+      "date": "2026-05-02",
+      "name": "Endurance #7",
+      "type": "WORKOUT",
+      "planned_tss": 45,
+      "duration_hours": 0.97,
+      "duration_formatted": "58m",
+      "workout_summary": null,
+      "description": "After warming up, the focus today is on improving your aerobic endurance. The main set consists of a variety of low-intensity aerobic efforts. Relax and enjoy the ride today.\n\nWarmup\n- 10m ramp 45.4-75.4%\n\n- 1m 62.9%\n- 7m 73%\n- 1m 62.9%\n- 6m 68%\n- 1m 62.9%\n- 7m 73.4%\n- 1m 62.9%\n- 6m 68.4%\n- 1m 62.9%\n- 7m 73%\n\nCooldown\n- 10m ramp 75.4-45.4%"
     },
     {
       "id": 97843282,
