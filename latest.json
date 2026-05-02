@@ -9,13 +9,13 @@
     "quick_stats": {
       "total_training_hours": 11.94,
       "total_training_formatted": "11h56m",
-      "total_activities": 5,
+      "total_activities": 6,
       "total_tss": 667
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-02T11:57:42.430184",
+    "last_updated": "2026-05-02T13:16:10.012050",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.81"
@@ -89,7 +89,7 @@
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
     "total_duration_decimal_hours": 11.94,
-    "total_activities": 5,
+    "total_activities": 6,
     "by_activity_type": {
       "Ride": {
         "duration_decimal_hours": 11.26,
@@ -99,7 +99,7 @@
       },
       "Unknown": {
         "duration_decimal_hours": 0.0,
-        "count": 2,
+        "count": 3,
         "tss": 0,
         "distance_km": 0.0
       },
@@ -113,11 +113,11 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 67.21,
-      "atl": 82.0,
-      "tsb": -14.79,
-      "ramp_rate": 5.68,
-      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
+      "ctl": 68.31,
+      "atl": 88.26,
+      "tsb": -19.95,
+      "ramp_rate": 6.79,
+      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
       "eftp": 265.0,
@@ -285,9 +285,9 @@
         "note": "Compares 7d vs 28d Seiler TID to detect distribution shifts. pi_delta positive = more polarized acutely."
       }
     },
-    "consistency_index": 0.43,
+    "consistency_index": 0.5,
     "consistency_details": {
-      "planned_days": 7,
+      "planned_days": 6,
       "completed_days": 3,
       "matched_days": 3,
       "planned_dates": [
@@ -296,8 +296,7 @@
         "2026-04-28",
         "2026-04-29",
         "2026-04-30",
-        "2026-05-01",
-        "2026-05-02"
+        "2026-05-01"
       ],
       "completed_dates": [
         "2026-04-26",
@@ -319,11 +318,11 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 2.15,
+          "planned_tss_delta": 1.58,
           "hard_sessions_planned": 0,
           "race_proximity": 57,
           "next_week_load": 2.13,
-          "plan_coverage_current_week": 0.4,
+          "plan_coverage_current_week": 0.2,
           "plan_coverage_next_week": 1.8
         },
         "data_quality": "good",
@@ -359,13 +358,13 @@
     "p_max": 1200,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-02T11:57:42.429362",
+    "calculation_timestamp": "2026-05-02T13:16:10.011235",
     "data_quality": {
       "hrv_data_points": 1,
       "rhr_data_points": 2,
-      "activities_7d": 5,
-      "activities_28d": 28,
-      "planned_workouts_7d": 10,
+      "activities_7d": 6,
+      "activities_28d": 29,
+      "planned_workouts_7d": 9,
       "ftp_history_days": {
         "indoor": 51,
         "outdoor": 51
@@ -373,6 +372,40 @@
     }
   },
   "recent_activities": [
+    {
+      "id": "18345205811",
+      "date": "2026-05-02T12:19:18",
+      "type": "Unknown",
+      "name": "",
+      "duration_hours": 0.0,
+      "distance_km": 0.0,
+      "tss": null,
+      "intensity_factor": null,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": null,
+      "max_hr": null,
+      "avg_cadence": null,
+      "avg_speed": null,
+      "max_speed": null,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": null,
+      "calories": null,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "efficiency_factor": null,
+      "hrrc": null,
+      "elevation_m": null,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": null
+    },
     {
       "id": "i144558254",
       "date": "2026-05-01T07:43:06",
@@ -716,17 +749,6 @@
     }
   ],
   "planned_workouts": [
-    {
-      "id": 100018263,
-      "date": "2026-05-02",
-      "name": "Endurance #7",
-      "type": "WORKOUT",
-      "planned_tss": 45,
-      "duration_hours": 0.97,
-      "duration_formatted": "58m",
-      "workout_summary": null,
-      "description": "After warming up, the focus today is on improving your aerobic endurance. The main set consists of a variety of low-intensity aerobic efforts. Relax and enjoy the ride today.\n\nWarmup\n- 10m ramp 45.4-75.4%\n\n- 1m 62.9%\n- 7m 73%\n- 1m 62.9%\n- 6m 68%\n- 1m 62.9%\n- 7m 73.4%\n- 1m 62.9%\n- 6m 68.4%\n- 1m 62.9%\n- 7m 73%\n\nCooldown\n- 10m ramp 75.4-45.4%"
-    },
     {
       "id": 97843282,
       "date": "2026-05-03",
@@ -1164,18 +1186,18 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 9,
+    "attempted": 8,
     "success": 8,
     "patternA": 3,
     "patternB": 5,
     "bail_no_workout_doc": 6,
-    "bail_no_match": 1
+    "bail_no_match": 0
   },
   "weekly_summary": {
     "total_training_hours": 11.94,
     "total_training_formatted": "11h56m",
     "total_tss": 667,
-    "activities_count": 5,
+    "activities_count": 6,
     "avg_hrv": 103.1,
     "avg_resting_hr": 52.5
   },
