@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-09T19:31:46.700557",
+    "last_updated": "2026-05-09T20:25:23.186622",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.81"
@@ -329,11 +329,11 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 4.74,
+          "planned_tss_delta": 3.16,
           "hard_sessions_planned": 0,
           "race_proximity": 50,
           "next_week_load": 1.68,
-          "plan_coverage_current_week": 0.4,
+          "plan_coverage_current_week": 0.2,
           "plan_coverage_next_week": 1.6
         },
         "data_quality": "good",
@@ -369,7 +369,7 @@
     "p_max": 1199,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-09T19:31:46.699709",
+    "calculation_timestamp": "2026-05-09T20:25:23.185689",
     "data_quality": {
       "hrv_data_points": 3,
       "rhr_data_points": 3,
@@ -825,17 +825,6 @@
       "description": ""
     },
     {
-      "id": 97843287,
-      "date": "2026-05-10",
-      "name": "Group Ride",
-      "type": "WORKOUT",
-      "planned_tss": 125,
-      "duration_hours": 2.5,
-      "duration_formatted": "2h30m",
-      "workout_summary": null,
-      "description": "Easy Z2 (if possible) no big effort in ascents"
-    },
-    {
       "id": 97224462,
       "date": "2026-05-11",
       "name": "Weekly",
@@ -1223,7 +1212,7 @@
     "success": 5,
     "patternA": 1,
     "patternB": 4,
-    "bail_no_workout_doc": 6,
+    "bail_no_workout_doc": 5,
     "bail_no_match": 0
   },
   "weekly_summary": {
