@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-19T10:05:38.017172",
+    "last_updated": "2026-05-19T13:29:55.645143",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.81"
@@ -38,13 +38,13 @@
       "hrv": {
         "status": "unavailable",
         "value": null,
-        "baseline_7d": 81.0,
+        "baseline_7d": 97.2,
         "delta_pct": null
       },
       "rhr": {
         "status": "unavailable",
         "value": null,
-        "baseline_7d": 46,
+        "baseline_7d": 47.2,
         "delta_bpm": null
       },
       "sleep": {
@@ -62,7 +62,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 4.4
+        "value": 5.2
       }
     },
     "signal_summary": {
@@ -117,10 +117,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 69.02,
-      "atl": 64.62,
-      "tsb": 4.4,
-      "ramp_rate": -1.17,
+      "ctl": 68.84,
+      "atl": 63.68,
+      "tsb": 5.16,
+      "ramp_rate": -1.36,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
@@ -165,7 +165,7 @@
       }
     },
     "current_metrics": {
-      "weight_kg": 63.0,
+      "weight_kg": 63.8,
       "resting_hr": 46,
       "hrv": null,
       "sleep_quality": null,
@@ -175,10 +175,10 @@
   },
   "derived_metrics": {
     "recovery_index": null,
-    "hrv_baseline_7d": 81.0,
-    "rhr_baseline_7d": 46,
-    "hrv_baseline_28d": 98.6,
-    "rhr_baseline_28d": 45.2,
+    "hrv_baseline_7d": 97.2,
+    "rhr_baseline_7d": 47.2,
+    "hrv_baseline_28d": 98.9,
+    "rhr_baseline_28d": 45.6,
     "latest_hrv": null,
     "latest_rhr": null,
     "acwr": 0.69,
@@ -322,7 +322,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.32,
+          "planned_tss_delta": 1.28,
           "hard_sessions_planned": 3,
           "race_proximity": 40,
           "next_week_load": null,
@@ -362,10 +362,10 @@
     "p_max": 1193,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-19T10:05:38.016337",
+    "calculation_timestamp": "2026-05-19T13:29:55.644278",
     "data_quality": {
-      "hrv_data_points": 1,
-      "rhr_data_points": 1,
+      "hrv_data_points": 6,
+      "rhr_data_points": 6,
       "activities_7d": 8,
       "activities_28d": 28,
       "planned_workouts_7d": 8,
@@ -725,9 +725,9 @@
     },
     {
       "date": "2026-05-14",
-      "weight_kg": 63.0,
-      "resting_hr": null,
-      "hrv_rmssd": null,
+      "weight_kg": 63.3,
+      "resting_hr": 46,
+      "hrv_rmssd": 90.810165,
       "hrv_sdnn": null,
       "sleep_hours": null,
       "sleep_formatted": null,
@@ -742,8 +742,8 @@
     {
       "date": "2026-05-15",
       "weight_kg": null,
-      "resting_hr": null,
-      "hrv_rmssd": null,
+      "resting_hr": 49,
+      "hrv_rmssd": 76.895325,
       "hrv_sdnn": null,
       "sleep_hours": null,
       "sleep_formatted": null,
@@ -758,8 +758,8 @@
     {
       "date": "2026-05-16",
       "weight_kg": null,
-      "resting_hr": null,
-      "hrv_rmssd": null,
+      "resting_hr": 48,
+      "hrv_rmssd": 97.60721,
       "hrv_sdnn": null,
       "sleep_hours": null,
       "sleep_formatted": null,
@@ -774,8 +774,8 @@
     {
       "date": "2026-05-17",
       "weight_kg": null,
-      "resting_hr": null,
-      "hrv_rmssd": null,
+      "resting_hr": 48,
+      "hrv_rmssd": 112.55218,
       "hrv_sdnn": null,
       "sleep_hours": null,
       "sleep_formatted": null,
@@ -789,9 +789,9 @@
     },
     {
       "date": "2026-05-18",
-      "weight_kg": null,
-      "resting_hr": null,
-      "hrv_rmssd": null,
+      "weight_kg": 63.8,
+      "resting_hr": 46,
+      "hrv_rmssd": 124.60486,
       "hrv_sdnn": null,
       "sleep_hours": null,
       "sleep_formatted": null,
@@ -826,11 +826,11 @@
       "date": "2026-05-19",
       "name": "3Dapt Long Test 12min",
       "type": "WORKOUT",
-      "planned_tss": 67,
+      "planned_tss": 51,
       "duration_hours": 0.68,
       "duration_formatted": "41m",
-      "workout_summary": "8m @112W | 4\u00d730s @264W / 30s rec | 1m @112W | 2m @291W | 1m @112W | 30s @331W | 4m @112W | 12m @344W | 8m @112W",
-      "description": "In this test, the purpose is to record the best 10-min power. The warm-up consists of low intensity followed by some threshold toggles, then two priming efforts, then a maximal 10-min effort in the free ride mode. Try to pace yourself evenly - if you notice after 3-4 minutes that the power you are attempting is too high or low, adjust accordingly to be able to finish strong.\n\n- 8m 30-55%\n- 30s 95-105%\n- 30s 45-55%\n- 30s 95-105%\n- 30s 45-55%\n- 30s 95-105%\n- 30s 45-55%\n- 30s 95-105%\n- 1m 30-55%\n- 1m 30-55%\n- 2m 105-115%\n- 1m 30-55%\n- 30s 120-130%\n- 4m 30-55%\n- 12m Freeride 120-140% - mean max power\n- 8m 30-55%"
+      "workout_summary": "8m @112W | 4\u00d730s @264W / 30s rec | 1m @112W | 2m @278W | 1m @112W | 30s @331W | 4m @112W | 12m @291W | 8m @112W",
+      "description": "In this test, the purpose is to record the best 10-min power. The warm-up consists of low intensity followed by some threshold toggles, then two priming efforts, then a maximal 10-min effort in the free ride mode. Try to pace yourself evenly - if you notice after 3-4 minutes that the power you are attempting is too high or low, adjust accordingly to be able to finish strong.\n\n- 8m 30-55%\n- 30s 95-105%\n- 30s 45-55%\n- 30s 95-105%\n- 30s 45-55%\n- 30s 95-105%\n- 30s 45-55%\n- 30s 95-105%\n- 1m 30-55%\n- 1m 30-55%\n- 2m 100-110%\n- 1m 30-55%\n- 30s 120-130%\n- 4m 30-55%\n- 12m Freeride 108-112% - mean max power\n- 8m 30-55%"
     },
     {
       "id": 97842264,
@@ -1154,8 +1154,8 @@
     "total_training_formatted": "6h3m",
     "total_tss": 340,
     "activities_count": 8,
-    "avg_hrv": 81.0,
-    "avg_resting_hr": 46.0
+    "avg_hrv": 97.2,
+    "avg_resting_hr": 47.2
   },
   "race_calendar": {
     "next_race": {
