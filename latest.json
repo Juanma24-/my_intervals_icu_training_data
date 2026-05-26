@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-26T18:36:04.628134",
+    "last_updated": "2026-05-26T20:35:08.010226",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.81"
@@ -330,9 +330,9 @@
           "planned_tss_delta": null,
           "hard_sessions_planned": 0,
           "race_proximity": 33,
-          "next_week_load": null,
-          "plan_coverage_current_week": 0.2,
-          "plan_coverage_next_week": 0.8
+          "next_week_load": 0.15,
+          "plan_coverage_current_week": 0.4,
+          "plan_coverage_next_week": 1.2
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -367,7 +367,7 @@
     "p_max": 1190,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-26T18:36:04.627288",
+    "calculation_timestamp": "2026-05-26T20:35:08.009366",
     "data_quality": {
       "hrv_data_points": 2,
       "rhr_data_points": 2,
@@ -876,6 +876,17 @@
       "description": ""
     },
     {
+      "id": 112528312,
+      "date": "2026-05-29",
+      "name": "Al pueblo!",
+      "type": "HOLIDAY",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "description": ""
+    },
+    {
       "id": 97224465,
       "date": "2026-06-01",
       "name": "Weekly",
@@ -907,6 +918,28 @@
       "duration_formatted": "1h30m",
       "workout_summary": null,
       "description": ""
+    },
+    {
+      "id": 112530162,
+      "date": "2026-06-01",
+      "name": "Easy Run",
+      "type": "WORKOUT",
+      "planned_tss": null,
+      "duration_hours": 0.83,
+      "duration_formatted": "50m",
+      "workout_summary": null,
+      "description": ""
+    },
+    {
+      "id": 112530094,
+      "date": "2026-06-02",
+      "name": "Controlled 30/20's #1",
+      "type": "WORKOUT",
+      "planned_tss": 72,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": "5m @184W | 7m @250W | 3m @137W | 10\u00d730s @340W / 20s rec | 7m @149W | 10\u00d730s @340W / 20s rec | 7m @149W | 10\u00d730s @340W / 20s rec | 6m @108W",
+      "description": "Warmup\n-  5m ramp 50-85%\n\n- 7m 92%\n- 3m 50.4%\n\n10x\n- 30s 125%\n- 20s 44.9%\n\n- 7m 55%\n\n10x\n- 30s 125%\n- 20s 44.9%\n\n- 7m 55%\n\n10x\n- 30s 125%\n- 20s 45.4%\n\nCooldown\n- 6m ramp 50-30%"
     },
     {
       "id": 97841324,
@@ -953,6 +986,27 @@
       "description_preview": null
     },
     {
+      "id": 112530149,
+      "date": "2026-06-08",
+      "name": "Easy Run",
+      "type": "WORKOUT",
+      "planned_tss": null,
+      "duration_hours": 0.83,
+      "duration_formatted": "50m",
+      "workout_summary": null,
+      "description_preview": null
+    },
+    {
+      "id": 112530104,
+      "date": "2026-06-09",
+      "name": "Controlled 30/20's #2",
+      "type": "WORKOUT",
+      "planned_tss": 79,
+      "duration_hours": 1.08,
+      "duration_formatted": "1h5m",
+      "workout_summary": "5m @184W | 7m @250W | 3m @137W | 12\u00d730s @340W / 20s rec | 7m @149W | 12\u00d730s @340W / 20s rec | 7m @149W | 12\u00d730s @340W / 20s rec | 6m @108W"
+    },
+    {
       "id": 97841341,
       "date": "2026-06-11",
       "name": "Lower Body",
@@ -960,6 +1014,28 @@
       "planned_tss": null,
       "duration_hours": 1.5,
       "duration_formatted": "1h30m",
+      "workout_summary": null,
+      "description_preview": null
+    },
+    {
+      "id": 112530357,
+      "date": "2026-06-12",
+      "name": "Easy Ride",
+      "type": "WORKOUT",
+      "planned_tss": null,
+      "duration_hours": 2.0,
+      "duration_formatted": "2h",
+      "workout_summary": null,
+      "description_preview": null
+    },
+    {
+      "id": 112530240,
+      "date": "2026-06-13",
+      "name": "Half Everesting in Bianditz",
+      "type": "WORKOUT",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
       "workout_summary": null,
       "description_preview": null
     },
@@ -1006,6 +1082,27 @@
       "duration_formatted": "1h30m",
       "workout_summary": null,
       "description_preview": null
+    },
+    {
+      "id": 112530175,
+      "date": "2026-06-15",
+      "name": "Easy Run",
+      "type": "WORKOUT",
+      "planned_tss": null,
+      "duration_hours": 0.83,
+      "duration_formatted": "50m",
+      "workout_summary": null,
+      "description_preview": null
+    },
+    {
+      "id": 112530207,
+      "date": "2026-06-16",
+      "name": "Controlled 40/20's #1",
+      "type": "WORKOUT",
+      "planned_tss": 92,
+      "duration_hours": 1.08,
+      "duration_formatted": "1h5m",
+      "workout_summary": "5m @184W | 7m @250W | 3m @137W | 10\u00d740s @367W / 20s rec | 7m @149W | 10\u00d740s @340W / 20s rec | 7m @149W | 10\u00d740s @340W / 20s rec | 6m @108W"
     },
     {
       "id": 97841344,
@@ -1086,9 +1183,9 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 0,
-    "success": 0,
-    "patternA": 0,
+    "attempted": 3,
+    "success": 3,
+    "patternA": 3,
     "patternB": 0,
     "bail_no_workout_doc": 2,
     "bail_no_match": 0
