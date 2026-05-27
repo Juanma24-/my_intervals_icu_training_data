@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-27T06:15:16.662615",
+    "last_updated": "2026-05-27T10:34:43.647683",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.81"
@@ -350,7 +350,7 @@
     "p_max": 1190,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-27T06:15:16.661781",
+    "calculation_timestamp": "2026-05-27T10:34:43.646874",
     "data_quality": {
       "hrv_data_points": 1,
       "rhr_data_points": 1,
@@ -963,11 +963,10 @@
       "date": "2026-06-13",
       "name": "Half Everesting in Bianditz",
       "type": "WORKOUT",
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "description_preview": null
+      "planned_tss": 297,
+      "duration_hours": 5.5,
+      "duration_formatted": "5h30m",
+      "workout_summary": "6\u00d740m @217W / 15m rec"
     },
     {
       "id": 97224467,
@@ -1113,9 +1112,9 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 3,
-    "success": 3,
-    "patternA": 3,
+    "attempted": 4,
+    "success": 4,
+    "patternA": 4,
     "patternB": 0,
     "bail_no_workout_doc": 2,
     "bail_no_match": 0
